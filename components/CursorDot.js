@@ -24,12 +24,12 @@ const CursorDot = () => {
         document.addEventListener('mousemove', handleMouseMove);
 
         // 监听鼠标悬停在可点击对象上的事件
-        const handleMouseEnter = () => {
-            dot.classList.add('cursor-dot-hover'); // 添加放大样式
-        };
-        const handleMouseLeave = () => {
-            dot.classList.remove('cursor-dot-hover'); // 移除放大样式
-        };
+        // const handleMouseEnter = () => {
+        //     dot.classList.add('cursor-dot-hover'); // 添加放大样式
+        // };
+        // const handleMouseLeave = () => {
+        //     dot.classList.remove('cursor-dot-hover'); // 移除放大样式
+        // };
 
 
         // 为所有可点击元素和包含 hover 或 group-hover 类名的元素添加事件监听
@@ -89,7 +89,7 @@ const CursorDot = () => {
             }
 
             .cursor-dot-hover {
-                border: 1px solid rgba(167, 167, 167, 0.14); /* 鼠标悬停时的深灰色边框，厚度为1px */
+                border: 1px solid rgba(254, 254, 254, 0.14); /* 鼠标悬停时的深灰色边框，厚度为1px */
                 width: 60px; /* 放大 */
                 height: 60px; /* 放大 */
                 background: hsla(0, 0%, 100%, 0.04); /* 半透明背景 */
@@ -98,7 +98,7 @@ const CursorDot = () => {
             }
 
             .dark .cursor-dot-hover {
-                border: 1px solid rgba(66, 66, 66, 0.66); /* 鼠标悬停时的深灰色边框，厚度为1px */
+                border: 1px solid rgba(253, 250, 250, 0.66); /* 鼠标悬停时的深灰色边框，厚度为1px */
             }
         `}</style>
     );
