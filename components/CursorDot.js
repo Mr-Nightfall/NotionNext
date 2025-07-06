@@ -1,10 +1,10 @@
-// import { useRouter } from 'next/router';
-// import { useEffect } from 'react';
-// /**
-//  * 白点鼠标跟随
-//  * @returns 
-//  */
-// const CursorDot = () => {
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
+/**
+ * 白点鼠标跟随
+ * @returns 
+ */
+const CursorDot = () => {
 //     const router = useRouter();
 //     useEffect(() => {
 //         // 创建小白点元素
@@ -102,6 +102,7 @@
 //             }
 //         `}</style>
 //     );
-// };
+    return null; // 组件不渲染任何内容
+};
 
-// export default CursorDot;
+export default CursorDot;
