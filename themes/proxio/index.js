@@ -41,7 +41,7 @@ import { SignUpForm } from './components/SignUpForm'
 import { SVG404 } from './components/svg/SVG404'
 import Lenis from '@/components/Lenis'
 import Announcement from './components/Announcement'
-import CursorDot from '@/components/CursorDot'
+//import CursorDot from '@/components/CursorDot'
 import LoadingCover from './components/LoadingCover'
 
 /**
@@ -81,7 +81,7 @@ const LayoutBase = props => {
             {/* 鼠标阻尼动画 */}
             <Lenis />
             {/* 鼠标跟随动画 */}
-            <CursorDot />
+            {/* <CursorDot /> */}
             {/* <MadeWithButton/> */}
         </div>
     )
