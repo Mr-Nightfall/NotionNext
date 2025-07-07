@@ -207,48 +207,48 @@ const CONFIG = {
         {
             name: '友情链接',
             menus: [
+                {
+                    title: 'Tangly的学习笔记',
+                    href: 'https://blog.tangly1024.com'
+                },
                 // {
-                //     title: 'Tangly的学习笔记',
-                //     href: 'https://blog.tangly1024.com'
+                //     title:'huanghunr',
+                //     href:'https://blog.huanghunr.top/'
+
                 // },
-                {
-                    title:'huanghunr',
-                    href:'https://blog.huanghunr.top/'
+                // {
+                //     title: '温婳霂',
+                //     href: 'https://somokel.github.io/'
 
-                },
-                {
-                    title: '温婳霂',
-                    href: 'https://somokel.github.io/'
-
-                },
-                {
-                    title: 'Metaviii',
-                    href:'https://metaviii.github.io/'
-                },
-                {
-                    title: 'Wuk0ng',
-                    herf:'https://wuk0ng.top/',
-                },
-                {
-                    title: 'C137_backer',
-                    href:'http://c137backer.com/'
-                },
-                {
-                    title: 'diver',
-                    herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
-                },
-                {
-                    title: 'CleverBoY',
-                    herf:'https://c1everboy.github.io/'
-                },
-                {
-                    title: 'Kong',
-                    herf:'https://zjnu-kong.github.io/'
-                },
-                {
-                    title: 'Zyd',
-                    herf:'https://sanitietatuji.github.io/'
-                },
+                // },
+                // {
+                //     title: 'Metaviii',
+                //     href:'https://metaviii.github.io/'
+                // },
+                // {
+                //     title: 'Wuk0ng',
+                //     herf:'https://wuk0ng.top/',
+                // },
+                // {
+                //     title: 'C137_backer',
+                //     href:'http://c137backer.com/'
+                // },
+                // {
+                //     title: 'diver',
+                //     herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
+                // },
+                // {
+                //     title: 'CleverBoY',
+                //     herf:'https://c1everboy.github.io/'
+                // },
+                // {
+                //     title: 'Kong',
+                //     herf:'https://zjnu-kong.github.io/'
+                // },
+                // {
+                //     title: 'Zyd',
+                //     herf:'https://sanitietatuji.github.io/'
+                // },
 
                 {
                     title: 'NotionNext',
@@ -257,7 +257,7 @@ const CONFIG = {
             ]
         },
         {
-            name: '作者',
+            name: '关于本站',
             menus: [
                 { title: 'Github', href: 'https://github.com/Mr-Nightfall/' },
                 // {
@@ -296,12 +296,12 @@ const CONFIG = {
     PROXIO_404_BACK: '回到主页',
 
     // 页面底部的行动呼吁模块
-    PROXIO_CTA_ENABLE: true,
+    PROXIO_CTA_ENABLE: false,
     PROXIO_CTA_TITLE: '与我建立联系',
     PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
     PROXIO_CTA_DESCRIPTION:
         '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
-    PROXIO_CTA_BUTTON: true, // 是否显示按钮
+    PROXIO_CTA_BUTTON: false, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我',
