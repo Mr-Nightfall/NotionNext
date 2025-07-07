@@ -14,7 +14,7 @@ const CONFIG = {
     ], // 欢迎文字，数组形式
 
     // 英雄区块导航
-    PROXIO_HERO_ENABLE: true, // 开启英雄区
+    PROXIO_HERO_ENABLE: f, // 开启英雄区
     PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
     PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
@@ -27,7 +27,8 @@ const CONFIG = {
 
     // 英雄区配图，如需隐藏，改为空值即可 ''
     PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
-    PROXIO_HERO_BANNER_IFRAME_URL: '', // hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
+    PROXIO_HERO_BANNER_IFRAME_URL: 'https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/', 
+// hero背景区内嵌背景网页 ，可以配置一个网页地址，例如动画网页https://my.spline.design/untitled-b0c6e886227646c34afc82cdc6de4ca2/
 
 
     // 文章区块
