@@ -207,10 +207,10 @@ const CONFIG = {
         {
             name: '友情链接',
             menus: [
-                {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
-                },
+                // {
+                //     title: 'Tangly的学习笔记',
+                //     href: 'https://blog.tangly1024.com'
+                // },
                 // {
                 //     title:'huanghunr',
                 //     href:'https://blog.huanghunr.top/'
