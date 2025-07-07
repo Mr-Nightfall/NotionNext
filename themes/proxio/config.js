@@ -14,7 +14,7 @@ const CONFIG = {
     ], // 欢迎文字，数组形式
 
     // 英雄区块导航
-    PROXIO_HERO_ENABLE: f, // 开启英雄区
+    PROXIO_HERO_ENABLE: false, // 开启英雄区
     PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
     PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
