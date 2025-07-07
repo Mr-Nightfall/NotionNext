@@ -211,49 +211,49 @@ const CONFIG = {
                 //     title: 'Tangly的学习笔记',
                 //     href: 'https://blog.tangly1024.com'
                 // },
-                {
-                    title:'huanghunr',
-                    href:'https://blog.huanghunr.top/'
+                // {
+                //     title:'huanghunr',
+                //     href:'https://blog.huanghunr.top/'
 
-                },
-                {
-                    title: '温婳霂',
-                    href: 'https://somokel.github.io/'
+                // },
+                // {
+                //     title: '温婳霂',
+                //     href: 'https://somokel.github.io/'
 
-                },
-                {
-                    title: 'Metaviii',
-                    href:'https://metaviii.github.io/'
-                },
-                {
-                    title: 'Wuk0ng',
-                    herf:'https://wuk0ng.top/',
-                },
-                {
-                    title: 'C137_backer',
-                    href:'http://c137backer.com/'
-                },
-                {
-                    title: 'diver',
-                    herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
-                },
-                {
-                    title: 'CleverBoY',
-                    herf:'https://c1everboy.github.io/'
-                },
-                {
-                    title: 'Kong',
-                    herf:'https://zjnu-kong.github.io/'
-                },
-                {
-                    title: 'Zyd',
-                    herf:'https://sanitietatuji.github.io/'
-                },
+                // },
+                // {
+                //     title: 'Metaviii',
+                //     href:'https://metaviii.github.io/'
+                // },
+                // {
+                //     title: 'Wuk0ng',
+                //     herf:'https://wuk0ng.top/',
+                // },
+                // {
+                //     title: 'C137_backer',
+                //     href:'http://c137backer.com/'
+                // },
+                // {
+                //     title: 'diver',
+                //     herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
+                // },
+                // {
+                //     title: 'CleverBoY',
+                //     herf:'https://c1everboy.github.io/'
+                // },
+                // {
+                //     title: 'Kong',
+                //     herf:'https://zjnu-kong.github.io/'
+                // },
+                // {
+                //     title: 'Zyd',
+                //     herf:'https://sanitietatuji.github.io/'
+                // },
 
-                {
-                    title: 'NotionNext',
-                    href: 'https://www.tangly1024.com'
-                }
+                // {
+                //     title: 'NotionNext',
+                //     href: 'https://www.tangly1024.com'
+                // }
             ]
         },
         {
