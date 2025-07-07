@@ -207,10 +207,11 @@ const CONFIG = {
         {
             name: '友情链接',
             menus: [
-                {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
-                },
+                // {
+                //     title: 'Tangly的学习笔记',
+                //     href: 'https://blog.tangly1024.com'
+                // },
+
                 {
                     title: 'NotionNext',
                     href: 'https://www.tangly1024.com'
@@ -218,25 +219,25 @@ const CONFIG = {
             ]
         },
         {
-            name: '开发者',
+            name: '作者',
             menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-                {
-                    title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-                },
-                {
-                    title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-                },
-                {
-                    title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
-                },
-                {
-                    title: '关于作者',
-                    href: 'https://blog.tangly1024.com/about'
-                }
+                { title: 'Github', href: 'https://github.com/Mr-Nightfall/' },
+                // {
+                //     title: '开发帮助',
+                //     href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+                // },
+                // {
+                //     title: '功能反馈',
+                //     href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+                // },
+                // {
+                //     title: '技术讨论',
+                //     href: 'https://github.com/tangly1024/NotionNext/discussions'
+                // },
+                // {
+                //     title: '关于作者',
+                //     href: 'https://blog.tangly1024.com/about'
+                // }
             ]
         }],
 
