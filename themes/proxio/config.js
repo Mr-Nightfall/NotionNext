@@ -35,7 +35,7 @@ const CONFIG = {
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
     PROXIO_BLOG_TITLE: '作品',
     PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-    PROXIO_BLOG_TEXT_1: '我的最新动态',
+    PROXIO_BLOG_TEXT_1: '最新动态',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -207,48 +207,48 @@ const CONFIG = {
         {
             name: '友情链接',
             menus: [
+                // {
+                //     title: 'Tangly的学习笔记',
+                //     href: 'https://blog.tangly1024.com'
+                // },
                 {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
+                    title:'huanghunr',
+                    href:'https://blog.huanghunr.top/'
+
                 },
-                // {
-                //     title:'huanghunr',
-                //     href:'https://blog.huanghunr.top/'
+                {
+                    title: '温婳霂',
+                    href: 'https://somokel.github.io/'
 
-                // },
-                // {
-                //     title: '温婳霂',
-                //     href: 'https://somokel.github.io/'
-
-                // },
-                // {
-                //     title: 'Metaviii',
-                //     href:'https://metaviii.github.io/'
-                // },
-                // {
-                //     title: 'Wuk0ng',
-                //     herf:'https://wuk0ng.top/',
-                // },
-                // {
-                //     title: 'C137_backer',
-                //     href:'http://c137backer.com/'
-                // },
-                // {
-                //     title: 'diver',
-                //     herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
-                // },
-                // {
-                //     title: 'CleverBoY',
-                //     herf:'https://c1everboy.github.io/'
-                // },
-                // {
-                //     title: 'Kong',
-                //     herf:'https://zjnu-kong.github.io/'
-                // },
-                // {
-                //     title: 'Zyd',
-                //     herf:'https://sanitietatuji.github.io/'
-                // },
+                },
+                {
+                    title: 'Metaviii',
+                    href:'https://metaviii.github.io/'
+                },
+                {
+                    title: 'Wuk0ng',
+                    herf:'https://wuk0ng.top/',
+                },
+                {
+                    title: 'C137_backer',
+                    href:'http://c137backer.com/'
+                },
+                {
+                    title: 'diver',
+                    herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
+                },
+                {
+                    title: 'CleverBoY',
+                    herf:'https://c1everboy.github.io/'
+                },
+                {
+                    title: 'Kong',
+                    herf:'https://zjnu-kong.github.io/'
+                },
+                {
+                    title: 'Zyd',
+                    herf:'https://sanitietatuji.github.io/'
+                },
 
                 {
                     title: 'NotionNext',
