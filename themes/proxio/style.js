@@ -101,7 +101,7 @@ const Style = () => {
   
   #theme-proxio .sticky #navbarCollapse li > a{
     --tw-text-opacity: 1;
-    color: rgb(17 25 40 / var(--tw-text-opacity));
+    color: black;//rgb(17 25 40 / var(--tw-text-opacity));
   }
   
   #theme-proxio .sticky #navbarCollapse li > a:hover{
