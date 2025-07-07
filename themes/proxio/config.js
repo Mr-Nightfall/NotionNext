@@ -47,7 +47,7 @@ const CONFIG = {
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
     // 特性区块
-    PROXIO_FEATURE_ENABLE: true, // 特性区块开关
+    PROXIO_FEATURE_ENABLE: false, // 特性区块开关
     PROXIO_FEATURE_TITLE: '为什么选我',
     PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
     PROXIO_FEATURE_TEXT_2:
@@ -73,7 +73,7 @@ const CONFIG = {
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
     // 首页生涯区块
-    PROXIO_CAREER_ENABLE: true, // 区块开关
+    PROXIO_CAREER_ENABLE: false, // 区块开关
     PROXIO_CAREER_TITLE: '生涯',
     PROXIO_CAREER_TEXT:
         '以下是我的职业生涯',
@@ -86,7 +86,7 @@ const CONFIG = {
     ],
 
     // 首页用户测评区块
-    PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
+    PROXIO_TESTIMONIALS_ENABLE: false, // 测评区块开关//*改为荣誉区
     PROXIO_TESTIMONIALS_TITLE: '用户反馈',
     PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
     PROXIO_TESTIMONIALS_TEXT_2:
@@ -96,16 +96,16 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
     PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
 
-    // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
+    // 这里不支持CONFIG和环境变量，需要一一修改此处代码。//写荣誉
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
                 '感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ ',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',//改为日期
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',//比赛性质
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'//复现平台
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -154,7 +154,7 @@ const CONFIG = {
     ],
 
     //   FAQ 常见问题模块
-    PROXIO_FAQ_ENABLE: true, // 常见问题模块开关
+    PROXIO_FAQ_ENABLE: false, // 常见问题模块开关
     PROXIO_FAQ_TITLE: '常见问题解答',
     PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
     PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
