@@ -10,7 +10,7 @@ const CONFIG = {
         '世界给了我一拳，但我出的是布',
         '找个位子随便坐',
         '笔下江山取意成，一峰来尽一峰生',
-        '网安人不说晚安',
+        '网安人别说晚安',
     ], // 欢迎文字，数组形式
 
     // 英雄区块导航
@@ -204,58 +204,58 @@ const CONFIG = {
     // 页脚三列菜单组
     // 页脚菜单
     PROXIO_FOOTER_LINKS: [
-        {
-            name: '友情链接',
-            menus: [
-                // {
-                //     title: 'Tangly的学习笔记',
-                //     href: 'https://blog.tangly1024.com'
-                // },
-                // {
-                //     title:'huanghunr',
-                //     href:'https://blog.huanghunr.top/'
+        // {
+        //     name: '友情链接',
+        //     menus: [
+        //         // {
+        //         //     title: 'Tangly的学习笔记',
+        //         //     href: 'https://blog.tangly1024.com'
+        //         // },
+        //         // {
+        //         //     title:'huanghunr',
+        //         //     href:'https://blog.huanghunr.top/'
 
-                // },
-                // {
-                //     title: '温婳霂',
-                //     href: 'https://somokel.github.io/'
+        //         // },
+        //         // {
+        //         //     title: '温婳霂',
+        //         //     href: 'https://somokel.github.io/'
 
-                // },
-                // {
-                //     title: 'Metaviii',
-                //     href:'https://metaviii.github.io/'
-                // },
-                // {
-                //     title: 'Wuk0ng',
-                //     herf:'https://wuk0ng.top/',
-                // },
-                // {
-                //     title: 'C137_backer',
-                //     href:'http://c137backer.com/'
-                // },
-                // {
-                //     title: 'diver',
-                //     herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
-                // },
-                // {
-                //     title: 'CleverBoY',
-                //     herf:'https://c1everboy.github.io/'
-                // },
-                // {
-                //     title: 'Kong',
-                //     herf:'https://zjnu-kong.github.io/'
-                // },
-                // {
-                //     title: 'Zyd',
-                //     herf:'https://sanitietatuji.github.io/'
-                // },
+        //         // },
+        //         // {
+        //         //     title: 'Metaviii',
+        //         //     href:'https://metaviii.github.io/'
+        //         // },
+        //         // {
+        //         //     title: 'Wuk0ng',
+        //         //     herf:'https://wuk0ng.top/',
+        //         // },
+        //         // {
+        //         //     title: 'C137_backer',
+        //         //     href:'http://c137backer.com/'
+        //         // },
+        //         // {
+        //         //     title: 'diver',
+        //         //     herf:':https://www.cnblogs.com/sword-reforge-zh-cnblog-platform'
+        //         // },
+        //         // {
+        //         //     title: 'CleverBoY',
+        //         //     herf:'https://c1everboy.github.io/'
+        //         // },
+        //         // {
+        //         //     title: 'Kong',
+        //         //     herf:'https://zjnu-kong.github.io/'
+        //         // },
+        //         // {
+        //         //     title: 'Zyd',
+        //         //     herf:'https://sanitietatuji.github.io/'
+        //         // },
 
-                // {
-                //     title: 'NotionNext',
-                //     href: 'https://www.tangly1024.com'
-                // }
-            ]
-        },
+        //         // {
+        //         //     title: 'NotionNext',
+        //         //     href: 'https://www.tangly1024.com'
+        //         // }
+        //     ]
+        // },
         {
             name: '关于本站',
             menus: [
