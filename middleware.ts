@@ -65,13 +65,13 @@ const noAuthMiddleware = async (req: NextRequest, ev: any) => {
  */
 const authMiddleware = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
   ? clerkMiddleware((auth, req) => {
-      if (!auth) return NextResponse.next() // 防御性处理
-      const { userId } = auth() || {}
+      const { userId } = auth()
       // 处理 /dashboard 路由的登录保护
       if (isTenantRoute(req)) {
         if (!userId) {
+          // 用户未登录，重定向到 /sign-in
           const url = new URL('/sign-in', req.url)
-          url.searchParams.set('redirectTo', req.url)
+          url.searchParams.set('redirectTo', req.url) // 保存重定向目标
           return NextResponse.redirect(url)
         }
       }
