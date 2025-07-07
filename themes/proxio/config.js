@@ -166,7 +166,7 @@ const CONFIG = {
     ],
 
     // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于作者',
     PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
     PROXIO_ABOUT_TEXT_2:
@@ -187,13 +187,19 @@ const CONFIG = {
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
     PROXIO_BRANDS: [
-        'Web Design',
-        'Logo Design',
-        'Mobile App Design',
-        'Product Design'
+        'WEB!!',
+        'Penetration learner',
+        'ZJNUer',
+        'Frontend Developer',
+        'Red Teamer',
+        'A1natas',
+        'Security Researcher',
+        'Bug Bounty Hunter',
+        'CTF',
+        'always learning...',
     ],
 
-    PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+    PROXIO_FOOTER_SLOGAN: '不断学习，不断进步，永不止步',
 
     // 页脚三列菜单组
     // 页脚菜单
