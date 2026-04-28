@@ -136,7 +136,7 @@ const Style = () => {
   
   #theme-proxio .sticky #navbarCollapse li .ud-menu-scroll.active{
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+    color: black; //rgb(55 88 249 / var(--tw-text-opacity));
     opacity: 1;
   }
   
