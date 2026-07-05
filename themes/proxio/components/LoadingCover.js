@@ -3,8 +3,11 @@ import { useEffect, useState } from 'react';
 
 const LoadingCover = ({ onFinishLoading }) => {
     const [isVisible, setIsVisible] = useState(true);
-    const welcomeText = siteConfig('PROXIO_WELCOME_TEXT', '欢迎来到我们的网站！');
+    const welcomeTexts = siteConfig('PROXIO_WELCOME_TEXT', ['欢迎来到我们的网站！']);
 
+    const randomText=Array.isArray(welcomeTexts)
+        ? welcomeTexts[Math.floor(Math.random() * welcomeTexts.length)]
+        : welcomeTexts;
     // 定义颜色变量
     const colors = {
         backgroundStart: '#1a1a1a', // 深灰色
@@ -56,7 +59,7 @@ const LoadingCover = ({ onFinishLoading }) => {
     return (
         <div className="welcome" id="pageContainer">
             <div className="welcome-text px-2" id="welcomeText">
-                {welcomeText}
+                {randomText}
             </div>
             <style jsx>
                 {`
